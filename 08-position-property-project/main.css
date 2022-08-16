@@ -1,0 +1,64 @@
+/* 
+position:static - default, always positioned 
+accoring to the normal flow.
+position: relative - position relative to it's 
+normal position.
+position: absolute: - relative to the parent with 
+position:relative.
+position:fixed - relative to viewport(screen),
+ stays as we are scrolling
+position:sticky - toggles between relative and fixed once the 
+position is met in the viewport - then it sticks
+one of the values top, left, bottom, right
+*/
+
+/* body {
+  background: yellow;
+}
+.banner {
+  background: blue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    background: red;
+  }
+  .banner {
+    background: yellow;
+  }
+
+  h1 {
+    color: black;
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background: green;
+  }
+  .banner {
+    margin-top: 60px;
+    background: pink;
+  }
+} */
+
+/* 
+z-index --- z-axis
+0-default
+does not work on position: static;
+*/
+
+/* 
+::before ::after pseudo-epements creates element and 
+inserts before and after CONTENT
+content:'' -required
+img --- does not work
+*/

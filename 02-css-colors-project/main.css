@@ -1,0 +1,25 @@
+body {
+  background: #f1f5f9;
+}
+
+/* h3 {
+  color: #645cff;
+} */
+
+/* in case you don't have a class attached to your div */
+
+div h3 {
+  color:#645cff;
+}
+
+.container {
+  background: #fff;
+}
+
+p {
+  color: #64748b;
+}
+
+.special-container {
+  background: rgba(0, 0, 0, 0.9);
+}

@@ -1,0 +1,63 @@
+/* Google Fonts and System Fonts */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto:wght@400;700&display=swap"); */
+
+/*
+system fonts - a font that's already installed on the device of the user/client
+
+
+-- advantages --
+
+- fast load times
+- less headaches
+- project will look completely different
+
+"-apple-system, BlinkMacSystemFont" - system of font on apple devices
+
+
+"Segoe UI" - Used on Windows Systems
+"Roboto" - System Font for Android Devices
+
+font-weight - this is how thick or thin characters in text should be
+font-style - this sets font style for a text
+
+text-align - responsible for the alignment of the text (Specifies the horizontal alignment of text)
+text-indent - The text-indent property is used to specify the indentation of the first line of a text
+
+line-height - If number *(multiplied) by font size (The line-height property is used to specify the space between lines)
+letter-spacing - The letter-spacing property is used to specify the space between the characters in a text
+word-spacing - The word-spacing property is used to specify the space between the words in a text
+white-space - Specifies how to handle white-space inside an element
+text-transform - 	Controls the capitalization of text
+text-decoration - Sets all the text-decoration properties in one declaration
+text-decoration-color -	Specifies the color of the text-decoration
+text-decoration-line - Specifies the kind of text decoration to be used (underline, overline, etc.)
+text-decoration-style -	Specifies the style of the text decoration (solid, dotted, etc.)
+text-decoration-thickness -	Specifies the thickness of the text decoration line
+text-shadow - The text-shadow property adds shadow to text. In its simplest use, you only specify the horizontal shadow (2px) and the vertical shadow (2px)
+
+**Important** The text-decoration property is a shorthand property for:
+
+text-decoration-line (required)
+text-decoration-color (optional)
+text-decoration-style (optional)
+text-decoration-thickness (optional)
+
+*/
+
+/* body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+}
+
+h1,
+h2 {
+  font-family: "Mr Dafoe", cursive;
+} */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}

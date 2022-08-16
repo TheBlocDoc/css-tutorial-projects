@@ -1,0 +1,23 @@
+/* 
+   :hover - use for hover effects
+   :link - unvisited links with href
+   :visited - visited links
+   :active - as the user clicks
+   a - all links
+   :root - root element of the document, 
+   higher specificity html element
+   general styles
+   CSS variables
+*/
+
+:root {
+  font-size: 10px;
+}
+
+.absolute {
+  font-size: 24px;
+}
+
+.relative {
+  font-size: 1.5rem;
+}
